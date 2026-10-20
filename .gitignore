@@ -1,1 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
 
+# Jupyter
+.ipynb_checkpoints/
+
+# Local datasets
+data/
+datasets/
+
+# Model checkpoints and weights
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Logs and temporary outputs
+logs/
+tmp/
+temp/
+
+# Secrets
+.env
